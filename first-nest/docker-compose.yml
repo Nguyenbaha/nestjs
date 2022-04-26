@@ -1,0 +1,10 @@
+version: '20.10.14'
+services:
+  postgres:
+    image: postgres
+    ports:
+      -8000:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: nest
